@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stich & Style</title>
+    <link rel="stylesheet" href="./assests/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="icon" type="image/png" href="images/machine.png" class="white">
+
+</head>
+<body>
+    
+    <div class="banner">
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                
+                <h1 class="navbar-brand">𝑺𝑻𝑰𝑪𝑯 & 𝑺𝑻𝒀𝑳𝑬</h1>
+
+
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MyNav" aria-controls="MyNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                
+                <div class="collapse navbar-collapse" id="MyNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-3">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#gallery" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#services" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="banner d-flex align-items-center justify-content-center text-center">
+            <div class="banner-content text-white">
+                <h2 class="mb-3">Where Tradition Meets Trend</h2>
+                <p class="lead mb-2">Transforming old sarees into elegant frocks</p>
+                <p class="lead mb-4">Custom tailoring with Aari magic</p>
+                <a href="#gallery" class="btn btn-lg explore-btn">Explore Design</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main container-fluid  py-5">
+
+        <!-- about Section -->
+        <div class="about" id="about">
+            <h2 class="about text-center">About Us</h2>
+            <p class="padding">Tailoring in Blouses, Chudhithars, Frocks and Transforming old saree into customized and comfortable dress At <strong>Stich & Style</strong>, we bring together tradition and modern fashion 
+                through personalized tailoring. Our expertise lies in 
+                <strong>Aari embroidery, blouse & chudithar stitching, and transforming old sarees 
+                into stylish, sustainable outfits</strong>. Every piece is handcrafted with care to 
+                ensure the perfect fit and unique design.
+            </p>
+            
+            <section class="about py-5">
+                <div class="container text-center">
+                    <div class="row">
+                        <!-- About 1 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="box p-4 shadow-sm rounded">
+                                <img src="./images/needle-logo.png" alt="Aari Work Embroidery" class="mb-3" width="60">
+                                <h5>Aari Work Embroidery</h5>
+                                <p>Detailed and intricate embroidery with Aari techniques.</p>
+                            </div>
+                        </div>
+
+                        <!-- About 2 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="box p-4 shadow-sm rounded">
+                                <img src="./images/dress-logo.png" alt="Chudithars & Kurthie Stitching" class="mb-3" width="60">
+                                <h5>Chudithars & Kurthie Stitching</h5>
+                                <p>Tailor-made outfits designed to your measurements.</p>
+                            </div>
+                        </div>
+
+                        <!-- About 3 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="box p-4 shadow-sm rounded">
+                                <img src="./images/saree-logo.png" alt="Saree Reuse & Frock Making" class="mb-3" width="60">
+                                <h5>Saree Reuse & Frock Making</h5>
+                                <p>Transform old sarees into modern and elegant frocks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <hr>
+        <div class="container text-center py-5" id="gallery">
+            <h2>Gallery</h2>
+            <h3 >Customized Dresses</h3>
+
+            <div class="row g-3">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="rounded-3 overflow-hidden">
+                        <img src="./images/bluedress.png" class="gallery-img w-100" alt="Gallery Image 1" onclick="openFullImage(this.src)">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="rounded-3 overflow-hidden">
+                        <img src="./images/fav-aari-dress.png" class="gallery-img w-100" alt="Gallery Image 2" onclick="openFullImage(this.src)">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="rounded-3 overflow-hidden">
+                        <img src="./images/dress1.png" class="gallery-img w-100" alt="Gallery Image 3" onclick="openFullImage(this.src)">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="rounded-3 overflow-hidden">
+                        <img src="./images/dress5.png" class="gallery-img w-100" alt="Gallery Image 4" onclick="openFullImage(this.src)">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 extra">
+                    <div class="rounded-3 overflow-hidden">
+                        <img src="./images/dress3.png" class="gallery-img w-100" alt="Gallery Image 5" onclick="openFullImage(this.src)">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 extra">
+                    <div class="rounded-3 overflow-hidden">
+                        <img src="./images/dress4.png" class="gallery-img w-100" alt="Gallery Image 6" onclick="openFullImage(this.src)">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 extra">
+                    <div class="rounded-3 overflow-hidden">
+                        <img src="./images/dress2.png" class="gallery-img w-100" alt="Gallery Image 6" onclick="openFullImage(this.src)">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 extra">
+                    <div class="rounded-3 overflow-hidden">
+                        <img src="./images/dress6.png" class="gallery-img w-100" alt="Gallery Image 6" onclick="openFullImage(this.src)">
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-3 d-md-none">
+                <button id="toggleGalleryBtn" class="btn gallery-btn">View More</button>
+            </div>
+        </div>
+        <!-- Fullscreen Modal -->
+        <div id="fullImageModal" class="fullscreen-modal" onclick="closeFullImage()">
+            <button class="back-btn" onclick="closeFullImage()">← Back</button>
+            <img id="fullImage" src="" alt="Full Image">
+        </div>
+        
+
+        <!-- Fullscreen Modal -->
+        <div id="fullImageModal" class="fullscreen-modal" onclick="closeFullImage()">
+            <button class="back-btn" onclick="closeFullImage()">← Back</button>
+            <img id="fullImage" src="" alt="Full Image">
+        </div>
+
+        <hr>
+        <!-- Services Section -->
+        <section class="container" id="services">
+            <h2 class="text-center">Our Services</h2>
+            <div class="content">
+                <div>
+                    <h3>Intrigate AariWork & Sustainable Fashion</h3>
+                    <p>
+                        Customize your <b>Blouse, Chudhithar, and Frocks</b> stitched to your perfect fit.  
+                        <b>Aari embroidery</b> with modern patterns and intricate detailing.  
+                        <b>Alteration and Restyling</b> for your old clothes.  
+                        <b>Saree Transformation</b>  all available.
+                    </p>
+                </div>
+            <div class="photo">
+                <img src="./images/sky-blue-dress.jpg" 
+                alt="Sky Blue Dress" 
+                class="img-fluid rounded shadow-sm"
+                style="max-width: 200px; height: 200px;">
+            </div>
+        </section>
+    </div>
+    <div class="container-fluid contact-us text-center py-5 footer" id="contact">
+        <div class="row">
+            <div class="col">
+                <h4>Follow For More</h4>
+                <p><i class="bi bi-whatsapp"></i> whatsapp me to know more</p>
+                <p><i class="bi bi-instagram"></i> Stich & style Spot</p>
+                <i class="bi bi-youtube"> bhavanishree63</i>
+            </div>
+    
+            <div class="col">
+                <h4>CONTACT INTO</h4>
+                <p><i class="bi bi-geo-alt"></i> 18,Gandhi Nagar,Second Street-614201</p>
+                <p><i class="bi bi-telephone"></i> 6374129586</p>
+                <p><i class="bi bi-envelope"></i> bhavanishreesjcetaiandds10@gmail.com</p>
+            </div>
+        
+            <div class="col">
+                <h4>OPENING HOURS</h4>
+                <p>MONDAY-FRIDAY</p>
+                <P>09:00 AM-09:00 PM</P>                    
+                <p>SATURDAY-SUNDAY</p>
+                <p>09:00 AM-12:00 PM</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const toggleBtn = document.getElementById("toggleGalleryBtn");
+        const extraImages = document.querySelectorAll(".extra");
+
+        toggleBtn.addEventListener("click", function() {
+            let isHidden = extraImages[0].style.display === "none" || extraImages[0].style.display === "";
+            
+            extraImages.forEach(img => img.style.display = isHidden ? "block" : "none");
+                
+            toggleBtn.textContent = isHidden ? "View Less" : "View More";
+        });
+    </script>
+   
+    <script>
+        function openFullImage(src) {
+            document.getElementById("fullImage").src = src;
+            document.getElementById("fullImageModal").style.display = "flex";
+        }
+        function closeFullImage() {
+            document.getElementById("fullImageModal").style.display = "none";
+        }
+    </script>
+
+    <script src="./assests/js/jquery.min.js"></script>
+    <script src="./assests/js/bootstrap.min.js"></script>
+</body>
+</html>
